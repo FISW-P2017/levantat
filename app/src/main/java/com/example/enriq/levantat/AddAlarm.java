@@ -1,5 +1,6 @@
 package com.example.enriq.levantat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -8,16 +9,18 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class AddAlarm extends AppCompatActivity {
-
+// hola
+Button btn_sPick;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_alarm);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        btn_sPick = (Button) findViewById(R.id.E_sonido);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,5 +51,11 @@ public class AddAlarm extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void Ring_picker_boton(View view){// esto invoca a la activity del sound picker
+
+        Intent intObj = new Intent(this,pick_sound.class);
+        startActivity(intObj);
     }
 }
