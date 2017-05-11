@@ -8,8 +8,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 
 public class AddAlarm extends AppCompatActivity {
+
+    Button btn_transport;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +20,8 @@ public class AddAlarm extends AppCompatActivity {
         setContentView(R.layout.activity_add_alarm);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
