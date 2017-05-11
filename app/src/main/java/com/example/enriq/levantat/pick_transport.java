@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -26,7 +27,7 @@ public class pick_transport extends AppCompatActivity implements AdapterView.OnI
 
         // Spinner Drop down elements
         List<String> types = new ArrayList<String>();
-        types.add("Walking");
+        types.add("None");
         types.add("Bicycle");
         types.add("Bus");
         types.add("Car");

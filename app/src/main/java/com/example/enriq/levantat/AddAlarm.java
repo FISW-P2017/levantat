@@ -1,5 +1,6 @@
 package com.example.enriq.levantat;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -21,7 +22,7 @@ public class AddAlarm extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
+        btn_transport = (Button) findViewById(R.id.B_transport);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -54,4 +55,12 @@ public class AddAlarm extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void Transport_spinner_button(View view){
+
+        Intent intObj = new Intent(this, pick_transport.class);
+        startActivity(intObj);
+    }
+
+
 }
