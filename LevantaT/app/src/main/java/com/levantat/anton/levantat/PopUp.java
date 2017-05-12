@@ -1,5 +1,4 @@
 package com.levantat.anton.levantat;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -24,6 +23,7 @@ public class PopUp extends Activity {
 
         DisplayMetrics dm = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(dm);
+
         int width = dm.widthPixels;
         int height = dm.heightPixels;
         //getWindow().setLayout((int)(width*.8), (int)(height*.8));
@@ -42,6 +42,7 @@ public class PopUp extends Activity {
                 // get selected radio button from radioGroup
                 int selectedId = rg.getCheckedRadioButtonId();
                 setRingtone(selectedId);
+                finish();
             }
         });
     }
