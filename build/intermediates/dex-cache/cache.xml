@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/625faf73a9997158cfa1b4d1b47c65193f490854/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_30463f91b06beb344c2a9ee237a02e333a8278fd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/1021d554ec62bc848c61b5f76f26ec98a193cab4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7626a9aa507bbbdc16188bc9a9f9bf3370c1ddd">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4fbfbdc5b5006379fae304c60afb25f2074df099/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/1609809dac17f32723867d76d0d55e8307eac9e6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ca1799fc5cdd7f0902f1e901f9f808a07a85158/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/48a5460b966196a18a10965fcc68aaaed23e1320/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c39868a4788370858c214ae018b0414d86bd878/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b5fd30f7f725d680f6b2b8fd92eafa5870be637">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_306992fc9582efaf78f525103bf00b3da6087010/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/3094b6ec6922139673910417584143a960c7c418/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_044c448acac07a2e274f3a4dc5bfdf37835fcb32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/86a4c8ca374206c0e102d96eec6eb1a2376c3a8c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1732569d11ddd73d4b09b959d06e35585c300708/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/.android/build-cache/fca6e2df2e5dfb657af5b614060d899cd21d230d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e90078ab8c025ea8b55f1d901114b09a3e1ccc74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/fernando/Documents/AndroidStudioProjects/LevantaT-LT003/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_68d943c42bb679fd7424df1af192d8b971cac439/classes.dex" />
+    </item>
+
+</items>
