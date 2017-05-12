@@ -58,4 +58,9 @@ Button btn_sPick;
         Intent intObj = new Intent(this,pick_sound.class);
         startActivity(intObj);
     }
+
+    public void CreateAlarm(View view) {
+        Intent intent = new Intent(AddAlarm.this, CreateAlarm.class);
+        startActivity(intent);
+    }
 }
