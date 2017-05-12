@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".pick_sound"></activity>
+        <activity android:name=".CreateAlarm"></activity>
     </application>
 
 </manifest>
